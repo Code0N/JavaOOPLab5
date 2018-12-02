@@ -1,10 +1,11 @@
 import java.awt.*
+import java.io.Serializable
 
-open class Rectangle {
-    protected var x1: Int = 0
-    protected var y1: Int = 0
-    protected var x2: Int = 0
-    protected var y2: Int = 0
+open class Rectangle: Serializable {
+    var x1: Int = 0
+    var y1: Int = 0
+    var x2: Int = 0
+    var y2: Int = 0
 
     fun getx1(): Int {
         return x1
